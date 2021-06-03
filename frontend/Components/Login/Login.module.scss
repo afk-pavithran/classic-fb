@@ -1,0 +1,39 @@
+.Login {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    column-gap: 20px;
+    grid-template-areas: "email password btn"
+                         ". forgotPassword .";
+
+
+    .email {
+        grid-area: email;
+    }
+    .password {
+        grid-area: password;
+    }
+    button {
+        grid-area: btn;
+        background: #627AAC;
+        height: 25px;
+        width: fit-content;
+        align-self: flex-end;
+        border: 0.5px solid black;
+        color: white;
+        border-radius: 2px;
+        padding: 0 5px;
+    }
+
+    h4 {
+        grid-area: forgotPassword;
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 500;
+}

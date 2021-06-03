@@ -1,0 +1,14 @@
+.Header {
+    height: 12vh;
+    background: #3A5795;
+    color: aliceblue;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+}
