@@ -1,0 +1,15 @@
+.NavBar {
+    height: 8vh;
+    background: #475894;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+
+    input {
+        width: 50%;
+        height: 60%;
+        border-radius: 3px;
+        border: none;
+    }
+}
+

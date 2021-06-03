@@ -1,0 +1,27 @@
+.Feed {
+
+}
+
+.Content {
+    padding: 5px 25px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.FeedLeft {
+    border: 1px solid red;
+}
+
+.FeedCenter {
+    border: 1px solid green;
+}
+
+.FeedRight {
+    border: 1px solid gold;
+}
+
+.Post {
+    border: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+}
