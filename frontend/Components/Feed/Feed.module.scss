@@ -23,5 +23,31 @@
 .Post {
     border: 1px solid gray;
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
+
+    h6 {
+        font-size: 12px;
+        font-weight: 200;
+        margin: 10px;
+    }
+    
+}
+
+.PostHead {
+    display: flex;
+    // border: 1px solid sienna;
+
+    h4 {
+        align-self: center;
+        margin: 0 10px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #3a5975;
+        font-family: sans-serif;
+    }
+
+    .avatar {
+        border: 5px solid gray;
+    
+    }
 }
